@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Epicodus Bank</title>
+  </head>
+  <body>
+    <div class="container" id="signUp">
+      <h2>Epicodus Bank</h2>
+      <header>New Account Creation</header>
+      <div class="signUpForm">
+        <form>
+          <input type="text" id="userName"><label>Username</label>
+          <input type="number" id="inDepositAmt"><label>Deposit</label>
+          <button type="submit" class="btn btn-default" id="acctCreate">Create Account</button>
+        </form>
+      </div>
+    </div>
+    <div class="container" id="accountInfo">
+      <header>Account Summary</header>
+      <div class="accSum">
+          <h2>Current Total:<span></span></h2>
+      </div>
+    </div>
+    <div class="container" id="signUp">
+      <header>New Account Creation</header>
+      <div class="signUpForm">
+        <form>
+          <input type="number" id="depositAmt"><label>Deposit</label>
+          <button type="submit" class="btn btn-default" id="deposit">Deposit</button>
+          <input type="number" id="withdrawalAmt"><label>Withdrawal</label>
+          <button type="submit" class="btn btn-default" id="withdrawal">Withdrawal</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
